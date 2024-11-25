@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                    // Atualizado para ES6 para suporte a classes e importações modernas
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "removeComments": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
